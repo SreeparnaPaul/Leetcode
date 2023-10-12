@@ -9,7 +9,6 @@ function ShuffleString(string,indices){
     for(let i=0;i<arr.length;i++){
         shuffle+=arr[i]
     }
-    console.log(shuffle);
     return shuffle
 }
-ShuffleString(string,indices)
+console.log("Shuffle String: ",ShuffleString(string,indices));
