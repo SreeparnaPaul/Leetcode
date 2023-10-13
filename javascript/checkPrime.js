@@ -21,6 +21,6 @@ function isPrime(num) {
   }
   
   // Example usage:
-  console.log(isPrime(2));  // true
+  console.log(isPrime(3));  // true
   console.log(isPrime(15));  // false
   
