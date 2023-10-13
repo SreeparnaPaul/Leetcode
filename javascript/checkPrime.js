@@ -23,4 +23,16 @@ function isPrime(num) {
   // Example usage:
   console.log(isPrime(3));  // true
   console.log(isPrime(15));  // false
+
+  function findPrimesInRange(start, end) {
+    const primeNumbers = [];
+    for (let number = start; number <= end; number++) {
+      if (isPrime(number)) {
+        primeNumbers.push(number);
+      }
+    }
+    return primeNumbers;
+  }
+
+  console.log(findPrimesInRange(0,100));
   
